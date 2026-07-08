@@ -19,10 +19,15 @@ lecture (l'IA propose, vous validez dans le cockpit).
 | Skill | Accès | Ce qu'il fait |
 |---|---|---|
 | `audit-express-seo` | **Gratuit** — sans compte | Audit d'une page en minutes, grille stricte, 5 corrections livrées prêtes à coller |
-| `landing-page-seo` | **Gratuit** — données réelles avec le MCP | Landing page complète (structure, copy, schema, maillage) adaptée au périmètre tech : HTML, WordPress, Next/Nuxt/Astro, Webflow/Wix/Squarespace |
+| `landing-page-seo` | **Gratuit** — données réelles avec le MCP | Landing page complète adaptée au périmètre tech : HTML, WordPress, Next/Nuxt/Astro, Webflow/Wix/Squarespace |
+| `schema-markup` | **Gratuit** — sans compte | Génère et valide le JSON-LD (LocalBusiness, Product, FAQPage, Article…) prêt à coller |
+| `audit-technique` | MCP requis | Audit technique complet sur le crawl réel — erreurs triées systémique/isolé, priorisées |
 | `opportunites-seo` | MCP requis | Les 10 opportunités à meilleur retour sur effort, sur vos requêtes Search Console réelles |
-| `chantier-maillage` | MCP requis | Chantier de maillage interne guidé — propositions justifiées envoyées dans le Netlinker pour validation |
-| `bilan-seo-mensuel` | MCP requis | Le rapport mensuel client : GSC, GA4, positions, SERP — et les 3 actions du mois suivant |
+| `brief-de-contenu` | MCP requis | Brief rédacteur calibré sur la SERP réelle : champ lexical GSC, plan, angle, maillage |
+| `verdict-de-page` | MCP requis | Pour une URL : garder / rafraîchir / fusionner / supprimer, sur preuves |
+| `chantier-maillage` | MCP requis | Chantier de maillage interne guidé — propositions justifiées envoyées dans le Netlinker |
+| `bilan-seo-mensuel` | MCP requis | Le point mensuel court : GSC, GA4, positions, et les 3 actions du mois suivant |
+| `rapport-client` | MCP requis | Le grand livrable client (marque blanche possible) : perf, positions, technique, opportunités |
 
 ## Le modèle
 
