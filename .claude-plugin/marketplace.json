@@ -1,0 +1,16 @@
+{
+  "name": "seo-cartograph",
+  "owner": {
+    "name": "Thomas Nedjar",
+    "url": "https://tnedjar.com"
+  },
+  "plugins": [
+    {
+      "name": "seo-cartograph",
+      "source": "./",
+      "description": "Le cockpit SEO piloté par votre IA : MCP SEO Cartograph (crawl, Search Console, GA4, positions, clusters, maillage) + skills prêts à l'emploi — landing pages, audit express, bilan mensuel, maillage interne, opportunités.",
+      "category": "marketing",
+      "homepage": "https://tnedjar.com/fr-fr/seo-cartograph/mcp/"
+    }
+  ]
+}
