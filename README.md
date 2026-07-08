@@ -28,6 +28,7 @@ lecture (l'IA propose, vous validez dans le cockpit).
 | `chantier-maillage` | MCP requis | Chantier de maillage interne guidé — propositions justifiées envoyées dans le Netlinker |
 | `bilan-seo-mensuel` | MCP requis | Le point mensuel court : GSC, GA4, positions, et les 3 actions du mois suivant |
 | `rapport-client` | MCP requis | Le grand livrable client (marque blanche possible) : perf, positions, technique, opportunités |
+| `calendrier-editorial` | MCP requis | Calendrier éditorial SEO : quoi publier, dans quel ordre et quand — opportunités, trous de cocons, saisonnalité GSC |
 
 ## Le modèle
 
