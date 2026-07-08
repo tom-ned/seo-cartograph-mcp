@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "cartograph": {
+      "type": "http",
+      "url": "https://app.tnedjar.com/mcp/cartograph"
+    }
+  }
+}

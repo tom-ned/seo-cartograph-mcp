@@ -1,0 +1,13 @@
+{
+  "name": "seo-cartograph",
+  "version": "0.1.0",
+  "description": "SEO Cartograph : le cockpit SEO piloté par votre IA. Connecte le MCP (crawl, Search Console, GA4, positions, clusters, maillage — en lecture) et installe les skills : landing pages SEO, audit express, bilan mensuel, chantier de maillage, détection d'opportunités.",
+  "author": {
+    "name": "Thomas Nedjar",
+    "email": "thomas.nedjar@gmail.com",
+    "url": "https://tnedjar.com/seo-cartograph"
+  },
+  "homepage": "https://tnedjar.com/fr-fr/seo-cartograph/mcp/",
+  "license": "proprietary",
+  "keywords": ["seo", "mcp", "search console", "maillage interne", "landing page", "positions"]
+}
