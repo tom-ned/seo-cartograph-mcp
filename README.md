@@ -16,10 +16,32 @@ technical SEO audit · SEO reporting.
 
 ## Install
 
+> **One plugin = the MCP server _plus_ the skills.** Just connecting the `cartograph` MCP
+> server on its own gives you the tools but **not** the skills — the skills ship with the
+> plugin, which is a separate install. Pick whichever entry point matches your client:
+
+**Claude Desktop / app (UI)** — Settings → **Plugins** → **Add**:
+- **Add a marketplace** → paste `tom-ned/seo-cartograph-mcp`, then install the
+  **`seo-cartograph`** plugin. Recommended: it auto-updates when the repo changes.
+- **Upload a plugin** → drag-and-drop a local copy of the plugin folder (or its `.zip`).
+  Handy offline or for a quick test, but it's a **frozen snapshot** (no auto-update).
+
+**Terminal (CLI)** — works from any shell (PowerShell, bash…):
+```
+claude plugin marketplace add tom-ned/seo-cartograph-mcp
+claude plugin install seo-cartograph
+```
+
+**Inside Claude Code (slash command)** — type these _in the Claude Code prompt_, not in your
+shell:
 ```
 /plugin marketplace add tom-ned/seo-cartograph-mcp
 /plugin install seo-cartograph
 ```
+
+After installing, **restart Claude** so the skills load. If you had already added a
+`cartograph` MCP server by hand, remove it (`claude mcp remove cartograph`) — the plugin
+wires it for you, so you'd otherwise end up with a duplicate.
 
 The first time an SEO Cartograph tool runs, Claude opens an OAuth screen: you sign in with
 your app.tnedjar.com account, and access stays **read-only** — the AI proposes, you approve
