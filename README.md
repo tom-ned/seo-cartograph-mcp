@@ -78,7 +78,7 @@ inside the cockpit. The free skills below work even without an account.
 
 ~30 read-only tools across the SEO cockpit: crawl (overview, pages, issues, audit,
 clusters), **Google Search Console** queries and history, **GA4** analytics, **live SERP**
-(serper.dev) and rank tracking, semantic clusters, and the internal-link map — plus
+and rank tracking, semantic clusters, and the internal-link map — plus
 propose-only actions (internal links, on-page fixes) that land in the cockpit for human
 validation.
 
