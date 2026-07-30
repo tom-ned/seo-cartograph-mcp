@@ -1,0 +1,26 @@
+{
+  "skill_name": "404-a-trafic",
+  "evals": [
+    {
+      "id": 0,
+      "name": "refonte-trafic-perdu",
+      "prompt": "J'ai fait une refonte sur exemple-client.com le mois dernier et je crois qu'on a cassé des URLs. Fais-moi le point sur les 404, et surtout dis-moi lesquelles me coûtent vraiment du trafic et vers quoi les rediriger.",
+      "expected_output": "Un breakdown des 404 par source (liens internes cassés, pages supprimées à trafic, orphelines GSC, régression), pondéré par le trafic perdu sur une fenêtre LARGE (pas 28 jours), avec cibles 301 proposées et export .htaccess/nginx. Doit repérer que le trafic récent est à 0 mais que l'historique 16 mois révèle des clics perdus, et que le gros chiffre de liens cassés vient d'un lien de gabarit.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "name": "plan-redirections-site-vitrine",
+      "prompt": "On a des pages en 404 sur autre-exemple.ch. Prépare-moi un plan de redirections propre, priorisé par ce qui rapporte.",
+      "expected_output": "Un plan de redirections 301 priorisé par trafic perdu (clics/impressions 16 mois), cibles proposées, export htaccess/nginx, confiance par ligne, et la mention que rien n'est appliqué automatiquement. Doit distinguer les vraies pages mortes des liens internes à corriger.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "quelles-404-valent-le-coup-tnedjar",
+      "prompt": "Quelles 404 sur tnedjar.com valent le coup d'être redirigées ? Je veux pas perdre de temps sur des pages sans intérêt.",
+      "expected_output": "Un tri des 404 par trafic perdu (fenêtre large), en écartant explicitement le bruit (404 sans trafic ni lien entrant regroupées en bloc), avec les quelques URLs qui méritent un 301 et leur cible. Doit éviter le piège de peser sur 28 jours.",
+      "files": []
+    }
+  ]
+}

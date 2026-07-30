@@ -68,6 +68,7 @@ inside the cockpit. The free skills below work even without an account.
 | **`brief-de-contenu`** | Writes a **content brief** ready for a writer, calibrated on the live SERP and real Search Console lexicon: target query, structure, differentiating angle, questions to cover, internal-link plan. |
 | **`verdict-de-page`** | For a single URL, a decisive verdict on evidence: **keep / refresh / merge / kill** — using its real traffic, positions, crawl health and role in the cluster. |
 | **`chantier-maillage`** | Runs a guided **internal-linking** project on the real link map — justified link proposals (source, target, anchor, reason) sent to the cockpit for your validation. |
+| **`analyse-404`** | Breaks down your **404s by source** (broken internal links, deleted pages with traffic, GSC-known orphans the crawl misses, regressions between two crawls), weights them by **lost Search Console traffic**, and outputs a prioritized **301 redirect plan** with ready-to-paste .htaccess / nginx. |
 | **`calendrier-editorial`** | Builds an **SEO editorial calendar** — what to publish, in what order, and when — from opportunities, cluster gaps and **Search Console seasonality** (ship the Christmas piece in October). |
 | **`bilan-seo-mensuel`** | The short **monthly SEO report**: GSC, GA4, positions, SERP moves — and the 3 actions for next month. |
 | **`rapport-client`** | The full **white-label SEO client report**: executive summary, performance, positions, technical health, competitors, roadmap — as markdown or print-ready HTML/PDF. |
